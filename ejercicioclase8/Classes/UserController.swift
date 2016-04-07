@@ -10,6 +10,26 @@ import UIKit
 
 class UserController: UIViewController {
 
+    
+    var nombre : String = ""
+    var nombreImagen : String = ""
+    var descripcion : String = ""   
+    
+    
+    init(nombre: String, andNombreImagen nombreImagen: String ,andDescripcion descripcion:String){
+        
+        self.nombre = nombre
+        self.nombreImagen = nombreImagen
+        self.descripcion = descripcion        
+        
+    }
+    
+
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
