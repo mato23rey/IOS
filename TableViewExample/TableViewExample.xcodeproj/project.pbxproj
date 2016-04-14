@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		158B86B61CBF2B7C001D3738 /* Productos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B86B51CBF2B7C001D3738 /* Productos.swift */; };
 		15A4719D1CB87B4900900F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4719C1CB87B4900900F9D /* AppDelegate.swift */; };
 		15A4719F1CB87B4900900F9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4719E1CB87B4900900F9D /* ViewController.swift */; };
 		15A471A21CB87B4900900F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A471A01CB87B4900900F9D /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		158B86B51CBF2B7C001D3738 /* Productos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Productos.swift; sourceTree = "<group>"; };
 		15A471991CB87B4900900F9D /* TableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A4719C1CB87B4900900F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15A4719E1CB87B4900900F9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				15A471CC1CB889B200900F9D /* prototypeClass.swift */,
 				15A471CE1CB88B1D00900F9D /* TableViewCell.swift */,
+				158B86B51CBF2B7C001D3738 /* Productos.swift */,
 			);
 			name = Clases;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158B86B61CBF2B7C001D3738 /* Productos.swift in Sources */,
 				15A471CD1CB889B200900F9D /* prototypeClass.swift in Sources */,
 				15A471CF1CB88B1D00900F9D /* TableViewCell.swift in Sources */,
 				15A4719F1CB87B4900900F9D /* ViewController.swift in Sources */,
@@ -498,6 +502,7 @@
 				15A471C31CB87B4900900F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15A471C41CB87B4900900F9D /* Build configuration list for PBXNativeTarget "TableViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				15A471C61CB87B4900900F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15A471C71CB87B4900900F9D /* Build configuration list for PBXNativeTarget "TableViewExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				15A471C91CB87B4900900F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

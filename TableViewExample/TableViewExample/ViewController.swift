@@ -12,6 +12,7 @@ class ViewController: UIViewController, UITableViewDelegate ,UITableViewDataSour
 
     @IBOutlet weak var tableViewTest: UITableView!
     
+     
     
     
     override func viewDidLoad() {
@@ -42,15 +43,23 @@ class ViewController: UIViewController, UITableViewDelegate ,UITableViewDataSour
         
         //let data = intearnaldata si si tengo un array de con los datos
         let dequeued = tableView.dequeueReusableCellWithIdentifier("prototypeID",forIndexPath: indexPath) as! TableViewCell
-        let cell = dequeued as TableViewCell
-        cell.tituloPrototype.text = "CLON"
-        cell.subTituloPrototype.text = "CLON22"
-        cell.precioPrototype.text = "99,9"
-        cell.imagen.image = UIImage(named: "img-profile-2")
-        return cell
+        //let cell = dequeued as TableViewCell
+        dequeued.tituloPrototype.text = "CLON"
+        dequeued.subTituloPrototype.text = "CLON22"
+        dequeued.precioPrototype.text = "99,9"
+        dequeued.imagen.image = UIImage(named: "img-profile-2")
+        return dequeued
+        
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        performSegueWithIdentifier("EventCell", sender: nil)
+        
         
     }
 
+    
 
 }
 
