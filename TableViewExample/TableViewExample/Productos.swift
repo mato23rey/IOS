@@ -11,14 +11,14 @@ import Foundation
 
 class Productos{
     
-    var nombre : String = ""
-    var nom : String = ""
-    var nombre : String = ""
-    
-    init(cardNumber: String){
-        
-        self.cardNumber = cardNumber
-        
-    }
+//    var nombre : String = ""
+//    var nom : String = ""
+//    var nombre : String = ""
+//    
+//    init(cardNumber: String){
+//        
+//        self.cardNumber = cardNumber
+//        
+//    }
     
 }
