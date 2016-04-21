@@ -31,6 +31,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func signIn(sender: AnyObject) {
+        
+        
+        performSegueWithIdentifier("InicioShow", sender: nil)
+
+        /*
+        if(txtUser.text=="ucu@ucu.com" && txtPassWord.text=="ucu2016"){
+            
+            performSegueWithIdentifier("InicioShow", sender: nil)
+            
+        }else{
+        
+            //Mostrar mensaje de error
+            
+        }*/
+    }
 
 }
 

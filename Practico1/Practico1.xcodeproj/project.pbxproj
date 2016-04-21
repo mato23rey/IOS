@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154BADA21CC85D2C00148DFB /* InicioContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154BADA11CC85D2C00148DFB /* InicioContoller.swift */; };
+		154BADA51CC8600700148DFB /* Cupones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154BADA41CC8600700148DFB /* Cupones.swift */; };
+		154BADA71CC8605F00148DFB /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154BADA61CC8605F00148DFB /* Usuario.swift */; };
+		154F78741CC98F2B00B3F47B /* CuponController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F78731CC98F2B00B3F47B /* CuponController.swift */; };
 		15B519281CC04870006D7A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B519271CC04870006D7A5B /* AppDelegate.swift */; };
 		15B5192A1CC04870006D7A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B519291CC04870006D7A5B /* ViewController.swift */; };
 		15B5192D1CC04870006D7A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B5192B1CC04870006D7A5B /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		154BADA11CC85D2C00148DFB /* InicioContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioContoller.swift; sourceTree = "<group>"; };
+		154BADA41CC8600700148DFB /* Cupones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cupones.swift; sourceTree = "<group>"; };
+		154BADA61CC8605F00148DFB /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		154F78731CC98F2B00B3F47B /* CuponController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuponController.swift; sourceTree = "<group>"; };
 		15B519241CC04870006D7A5B /* Practico1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practico1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B519271CC04870006D7A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B519291CC04870006D7A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		154BADA31CC85FE400148DFB /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				154BADA41CC8600700148DFB /* Cupones.swift */,
+				154BADA61CC8605F00148DFB /* Usuario.swift */,
+			);
+			name = Clases;
+			sourceTree = "<group>";
+		};
 		15B5191B1CC04870006D7A5B = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +114,15 @@
 		15B519261CC04870006D7A5B /* Practico1 */ = {
 			isa = PBXGroup;
 			children = (
+				154BADA31CC85FE400148DFB /* Clases */,
 				15B519271CC04870006D7A5B /* AppDelegate.swift */,
 				15B519291CC04870006D7A5B /* ViewController.swift */,
 				15B5192B1CC04870006D7A5B /* Main.storyboard */,
 				15B5192E1CC04870006D7A5B /* Assets.xcassets */,
 				15B519301CC04870006D7A5B /* LaunchScreen.storyboard */,
 				15B519331CC04870006D7A5B /* Info.plist */,
+				154BADA11CC85D2C00148DFB /* InicioContoller.swift */,
+				154F78731CC98F2B00B3F47B /* CuponController.swift */,
 			);
 			path = Practico1;
 			sourceTree = "<group>";
@@ -257,7 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B5192A1CC04870006D7A5B /* ViewController.swift in Sources */,
+				154F78741CC98F2B00B3F47B /* CuponController.swift in Sources */,
+				154BADA51CC8600700148DFB /* Cupones.swift in Sources */,
 				15B519281CC04870006D7A5B /* AppDelegate.swift in Sources */,
+				154BADA71CC8605F00148DFB /* Usuario.swift in Sources */,
+				154BADA21CC85D2C00148DFB /* InicioContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +508,7 @@
 				15B5194E1CC04870006D7A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15B5194F1CC04870006D7A5B /* Build configuration list for PBXNativeTarget "Practico1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +517,7 @@
 				15B519511CC04870006D7A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15B519521CC04870006D7A5B /* Build configuration list for PBXNativeTarget "Practico1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +526,7 @@
 				15B519541CC04870006D7A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
