@@ -11,14 +11,16 @@ import Foundation
 
 class Cupones{
     
-    //    var nombre : String = ""
-    //    var nom : String = ""
-    //    var nombre : String = ""
-    //
-    //    init(cardNumber: String){
-    //
-    //        self.cardNumber = cardNumber
-    //        
-    //    }
+    var producto : String? = ""
+    var descuento : String? = ""
+    var imagen : String? = ""
+    
+    init(nombre: String? = nil, andDescuento documento : String? = nil ,andImagen imagen: String? = nil ){
+        
+        self.producto = nombre
+        self.descuento = documento
+        self.imagen = imagen
+    }
+
     
 }
