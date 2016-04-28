@@ -14,8 +14,7 @@ class InicioController: UIViewController {
     @IBOutlet weak var lblPuntos: UILabel!
     @IBOutlet weak var btnImagenTarjeta: UIButton!
     @IBOutlet weak var btnImagenQR: UIButton!
-
-   
+    var email :String! //viene del login
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +34,26 @@ class InicioController: UIViewController {
         
         btnImagenQR.hidden = false;
         btnImagenTarjeta.hidden = true;
+        
+        let data = "ucu@ucu.com".dataUsingEncoding(NSISOLatin1StringEncoding)
+        
+        if let filter = CIFilter(name: "CIQRCodeGenerator") {
+            
+            filter.setValue(data, forKey: "inputMessage")
+            
+            filter.setValue("H", forKey: "inputCorrectionLevel")
+            
+            let transform = CGAffineTransformMakeScale(10, 10)
+            
+            if let output = filter.outputImage?.imageByApplyingTransform(transform) {
+               
+                btnImagenQR.setImage( UIImage(CIImage: output), forState: UIControlState.Normal)
+                
+            }
+            
+        }
+        
+        
        
     }
     
@@ -44,5 +63,10 @@ class InicioController: UIViewController {
         btnImagenQR.hidden = true;
         btnImagenTarjeta.hidden = false;
     }
+    
+    
+    
+
+    
     
 }

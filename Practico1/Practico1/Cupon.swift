@@ -8,8 +8,7 @@
 
 import Foundation
 
-
-class Cupones{
+class Cupon{
     
     var producto : String? = ""
     var descuento : String? = ""
@@ -22,5 +21,7 @@ class Cupones{
         self.imagen = imagen
     }
 
+    
+    
     
 }
