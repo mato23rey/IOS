@@ -289,7 +289,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1000 Puntos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48x-2F-yU6">
-                                <rect key="frame" x="416" y="101" width="105" height="21"/>
+                                <rect key="frame" x="220" y="50" width="330" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -338,8 +338,10 @@
                                 <exclude reference="gWR-Zq-mEp"/>
                                 <exclude reference="WyR-qm-WaX"/>
                                 <exclude reference="jJs-Hx-4kv"/>
+                                <exclude reference="oRD-zA-2Yo"/>
                                 <exclude reference="osc-Qc-zxQ"/>
                                 <exclude reference="p4n-OO-9nX"/>
+                                <exclude reference="66P-r9-cdK"/>
                             </mask>
                         </variation>
                     </view>
